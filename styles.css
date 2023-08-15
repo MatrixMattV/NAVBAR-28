@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gold;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+    user-select: none;
+    color: purple;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0px 16px;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
